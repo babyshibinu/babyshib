@@ -12,10 +12,10 @@
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
-/* .nav-menu.w-nav-menu a {
+.nav-menu.w-nav-menu a {
 	font-size: 25px;
 	color: #000000;
-} */
+}
    
 .w-layout-grid {
   display: -ms-grid;
