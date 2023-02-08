@@ -49,16 +49,16 @@
 							<div class="icon-2 w-icon-dropdown-toggle"></div>
 							<div class="text-block-9" style="font-size: 25px;color: #000000;">Community</div>
 						</div>
-						<!-- // 更改以下链接 -->
+						
 						<nav class="dropdown-list w-dropdown-list">
 							<a href="https://t.me/woof_work" target="_blank" class="dropdown-link w-dropdown-link">Telegram</a>
 							<a href="https://twitter.com/woof_work" target="_blank" class="dropdown-link w-dropdown-link">Twitter</a>
 							<a href="https://twitter.com/woof_work" target="_blank" class="dropdown-link discord w-dropdown-link">Discord</a>
 							<a href="https://woof-work.medium.com/" target="_blank" class="dropdown-link w-dropdown-link">Medium</a>
+						</nav>
 					</div>
 					
 					
-					<!-- <a id="connect" target="_blank" class="header-cta-button w-button">Connect</a> -->
 					 
 				</nav>
 				
@@ -344,7 +344,7 @@
 		      var Abi;
 		
 		      try{
-		        Address = "0xD9E5F03B72d7074d465Fc38cfeB09B309aad134C";
+		        Address = "0x0d1610b8B0c5332D1Bd11f8998818FC0036c066e";
 		        Abi = [
 	{
 		"inputs": [],
@@ -773,10 +773,10 @@
 		      var add_token = document.getElementById("add_token");
 		      add_token.addEventListener('click',async function(){
 		        if(is_connect == true){
-		          const tokenaddress = '0xD9E5F03B72d7074d465Fc38cfeB09B309aad134C';
+		          const tokenaddress = '0x0d1610b8B0c5332D1Bd11f8998818FC0036c066e';
 		          const tokensymbol = 'Baby Shib';
 		          const tokendecimals = 18;
-		          const tokenimage = 'https://babyshib.github.io/coin.png';
+		          const tokenimage = 'https://babyshib.github.io/babyshib/coin.png';
 		
 		          const if_add = await ethereum.request({
 		            method: 'wallet_watchAsset',
